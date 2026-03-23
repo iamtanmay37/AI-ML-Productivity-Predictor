@@ -9,16 +9,24 @@ The goal is to provide a data-driven approach to understanding burnout and optim
 The model evaluates the following inputs:
 
 Sleep_Hours: Total hours of rest.
+
 Study_Hours: Time spent on focused academic work.
+
 Screen_Time: Hours spent on digital devices (non-study).
+
 Exercise_Mins: Physical activity duration.
+
 Is_Weekend: Binary indicator (0 for Weekday, 1 for Weekend).
 
 🛠️ Technologies Used
 Language: Python 3.x
+
 Libraries: * Pandas (Data manipulation)
+
 NumPy (Numerical processing)
+
 Matplotlib & Seaborn (Data visualization)
+
 Scikit-Learn (Machine Learning model & evaluation)
 
 🚀 How to Run the Project
@@ -32,12 +40,16 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 Follow these steps in order to replicate the results:
 
 Generate Data: Run data_generation.py to create the student_productivity_data.csv file.
+
 Analyze Data: Run analysis.py to generate the correlation heatmap and see data trends.
+
 Train Model: Run model.py to train the Random Forest Classifier and view the accuracy report.
 
 📈 Model Performance
 Algorithm: Random Forest Classifier
+
 Evaluation Metric: Accuracy, Precision, and Recall.
+
 Current Accuracy: ~92% (Approximate based on synthetic data generation).
 
 📂 Repository Structure
