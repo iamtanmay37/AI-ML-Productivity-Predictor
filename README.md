@@ -1,5 +1,7 @@
 Student Productivity & Burnout Predictor (AI/ML)
+
 📌 Project Overview
+
 This project is a Supervised Machine Learning application designed to predict a student's daily productivity level based on their lifestyle habits. By analyzing factors such as sleep, study hours, and digital screen time, the model classifies a day into one of three categories: Low, Medium, or High productivity.
 The goal is to provide a data-driven approach to understanding burnout and optimizing student schedules.
 
