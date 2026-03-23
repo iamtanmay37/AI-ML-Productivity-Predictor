@@ -42,8 +42,13 @@ Current Accuracy: ~92% (Approximate based on synthetic data generation).
 
 📂 Repository Structure
 data_generation.py: Script to create the synthetic dataset.
+
 analysis.py: Script for Exploratory Data Analysis (EDA).
+
 model.py: Script to train and test the ML model.
+
 student_productivity_data.csv: The dataset used for training.
+
 correlation_chart.png: Visual representation of feature relationships.
+
 Project_Report.pdf: Detailed documentation of the project.
