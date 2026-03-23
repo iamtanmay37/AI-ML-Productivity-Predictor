@@ -5,6 +5,7 @@ Student Productivity & Burnout Predictor (AI/ML)
 This project is a Supervised Machine Learning application designed to predict a student's daily productivity level based on their lifestyle habits. By analyzing factors such as sleep, study hours, and digital screen time, the model classifies a day into one of three categories: Low, Medium, or High productivity.
 The goal is to provide a data-driven approach to understanding burnout and optimizing student schedules.
 
+
 📊 Key Features (Dataset)
 The model evaluates the following inputs:
 
@@ -18,6 +19,8 @@ Exercise_Mins: Physical activity duration.
 
 Is_Weekend: Binary indicator (0 for Weekday, 1 for Weekend).
 
+
+
 🛠️ Technologies Used
 Language: Python 3.x
 
@@ -28,6 +31,8 @@ NumPy (Numerical processing)
 Matplotlib & Seaborn (Data visualization)
 
 Scikit-Learn (Machine Learning model & evaluation)
+
+
 
 🚀 How to Run the Project
 1. Prerequisites
@@ -45,12 +50,16 @@ Analyze Data: Run analysis.py to generate the correlation heatmap and see data t
 
 Train Model: Run model.py to train the Random Forest Classifier and view the accuracy report.
 
+
+
 📈 Model Performance
 Algorithm: Random Forest Classifier
 
 Evaluation Metric: Accuracy, Precision, and Recall.
 
 Current Accuracy: ~92% (Approximate based on synthetic data generation).
+
+
 
 📂 Repository Structure
 data_generation.py: Script to create the synthetic dataset.
